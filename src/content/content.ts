@@ -31,7 +31,7 @@ export interface HostEntry {
 export interface EventEntry {
   id: string;
   name: L10n;
-  /** ISO 8601 with the IST offset, e.g. 2027-01-24T11:32:00+05:30. */
+  /** ISO 8601 with the IST offset, e.g. 2027-04-21T11:32:00+05:30. */
   startIso: string;
   endIso?: string;
   venue?: L10n;
@@ -249,8 +249,8 @@ export const content: WeddingContent = {
 
   date: {
     timeZone: 'Asia/Kolkata',
-    muhuratIso: '2027-01-24T11:32:00+05:30',
-    endIso: '2027-01-24T14:30:00+05:30',
+    muhuratIso: '2027-04-21T11:32:00+05:30',
+    endIso: '2027-04-21T14:30:00+05:30',
     muhuratLabel: {
       mr: 'गोरज मुहूर्त · सकाळी ११ वाजून ३२ मिनिटांनी',
       en: 'Shubh Muhurat · 11:32 AM IST',
@@ -290,24 +290,24 @@ export const content: WeddingContent = {
     {
       id: 'sakharpuda',
       name: { mr: 'साखरपुडा व मेहंदी', en: 'Sakharpuda & Mehendi' },
-      startIso: '2027-01-23T11:00:00+05:30',
-      endIso: '2027-01-23T14:00:00+05:30',
+      startIso: '2027-04-19T11:00:00+05:30',
+      endIso: '2027-04-19T14:00:00+05:30',
       venue: { mr: 'कदंब अंगण, वृंदावन राजवाडा', en: 'Kadamba Courtyard, Vrindavan Rajwada' },
       dressCode: { mr: 'मोरपंखी हिरवा किंवा पारंपरिक पोशाख', en: 'Peacock Green or Festive Traditional' },
     },
     {
       id: 'haldi',
       name: { mr: 'हळद समारंभ', en: 'Haldi Ceremony' },
-      startIso: '2027-01-23T16:30:00+05:30',
-      endIso: '2027-01-23T18:30:00+05:30',
+      startIso: '2027-04-20T16:30:00+05:30',
+      endIso: '2027-04-20T18:30:00+05:30',
       venue: { mr: 'झेंडू मंडप, वृंदावन राजवाडा', en: 'Marigold Pavilion, Vrindavan Rajwada' },
       dressCode: { mr: 'पिवळा व केशरी पोशाख', en: 'Shades of Marigold & Yellow' },
     },
     {
       id: 'sangeet',
       name: { mr: 'संगीत व सीमान्त पूजन', en: 'Sangeet & Simant Pujan' },
-      startIso: '2027-01-23T19:30:00+05:30',
-      endIso: '2027-01-23T22:30:00+05:30',
+      startIso: '2027-04-20T19:30:00+05:30',
+      endIso: '2027-04-20T22:30:00+05:30',
       venue: { mr: 'रास सभागृह, वृंदावन राजवाडा', en: 'Raas Hall, Vrindavan Rajwada' },
       dressCode: { mr: 'रात्रीचे निळे व सोनेरी पारंपरिक वस्त्र', en: 'Midnight Indigo & Gold Festive' },
     },
@@ -315,15 +315,15 @@ export const content: WeddingContent = {
       id: 'lagna',
       name: { mr: 'शुभमंगल (लग्न सोहळा)', en: 'Lagna (Wedding Ceremony)' },
       startIso: '2027-01-24T11:32:00+05:30',
-      endIso: '2027-01-24T14:00:00+05:30',
+      endIso: '2027-04-21T14:00:00+05:30',
       venue: { mr: 'मुख्य मंडप, वृंदावन राजवाडा', en: 'Main Mandap, Vrindavan Rajwada' },
       dressCode: { mr: 'पैठणी, नऊवारी किंवा पारंपरिक मराठी पोशाख', en: 'Paithani, Nauvari or Traditional Maharashtrian' },
     },
     {
       id: 'reception',
       name: { mr: 'स्वागत समारंभ (रिसेप्शन)', en: 'Reception' },
-      startIso: '2027-01-24T19:00:00+05:30',
-      endIso: '2027-01-24T22:00:00+05:30',
+      startIso: '2027-04-21T19:00:00+05:30',
+      endIso: '2027-04-21T22:00:00+05:30',
       venue: { mr: 'यमुना लॉन्स, वृंदावन राजवाडा', en: 'Yamuna Lawns, Vrindavan Rajwada' },
       dressCode: { mr: 'संध्याकाळचा पारंपरिक किंवा औपचारिक पोशाख', en: 'Evening Traditional or Formal' },
     },
@@ -359,7 +359,7 @@ export const content: WeddingContent = {
   },
 
   rsvp: {
-    deadline: '2027-01-10',
+    deadline: '2027-04-11',
     whatsappNumber: '919822001008',
     helplines: [
       { label: { mr: 'श्री. राजेंद्र देशमुख (वरपक्ष)', en: 'Rajendra Deshmukh (Groom side)' }, phone: '+919822001008' },
