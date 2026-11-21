@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#060D21" />
+      <stop offset="55%" stop-color="#0B1530" />
+      <stop offset="100%" stop-color="#0F4A56" />
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="32%" r="42%">
+      <stop offset="0%" stop-color="#FFF4DC" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#D4A640" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0B1530" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)" />
+  <rect width="1200" height="630" fill="url(#moon)" />
+  <rect x="34" y="34" width="1132" height="562" fill="none" stroke="#D4A640" stroke-width="2.5" />
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#D4A640" stroke-opacity="0.45" stroke-width="1" />
+
+  <text x="600" y="138" text-anchor="middle" fill="#D4A640" font-family="Georgia, serif" font-size="28" letter-spacing="2">
+    ॥ श्री गणेशाय नमः ॥
+  </text>
+  <text x="600" y="290" text-anchor="middle" fill="#FFF4DC" font-family="Georgia, serif" font-size="84" font-weight="600">
+    Krushna &amp; Devika
+  </text>
+  <text x="600" y="362" text-anchor="middle" fill="#E8A0B4" font-family="Georgia, serif" font-size="34">
+    कृष्ण आणि देविका — शुभविवाह निमंत्रण
+  </text>
+  <line x1="420" y1="414" x2="780" y2="414" stroke="#D4A640" stroke-width="1.5" />
+  <text x="600" y="476" text-anchor="middle" fill="#D4A640" font-family="Georgia, serif" font-size="32">
+    Sunday, 24 January 2027 · 11:32 AM IST
+  </text>
+  <text x="600" y="528" text-anchor="middle" fill="#FFF4DC" fill-opacity="0.82" font-family="sans-serif" font-size="24">
+    Vrindavan Rajwada Lawns &amp; Banquet, Pune
+  </text>
+</svg>

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+  }
+
+  /* Dynamic viewport units so iOS Safari's collapsing toolbar doesn't clip the canvas. */
+  #root {
+    height: 100dvh;
+  }
+
+  body {
+    @apply bg-midnight font-body text-cream antialiased;
+    overflow: hidden;
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "wed",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:host": "vite --host",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "check": "node --experimental-strip-types --no-warnings scripts/check-layout.mjs && node --experimental-strip-types --no-warnings scripts/check-framing.mjs",
+    "build": "tsc --noEmit && vite build",
+    "report": "node scripts/bundle-report.mjs",
+    "compress:assets": "node scripts/compress-assets.mjs",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.117.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "2.16.3",
+    "@types/howler": "^2.2.13",
+    "detect-gpu": "^5.0.70",
+    "gsap": "^3.15.1",
+    "howler": "^2.2.4",
+    "lucide-react": "^1.77.0",
+    "postprocessing": "^6.39.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.170.0",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.170.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
