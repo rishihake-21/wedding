@@ -314,7 +314,7 @@ export const content: WeddingContent = {
     {
       id: 'lagna',
       name: { mr: 'शुभमंगल (लग्न सोहळा)', en: 'Lagna (Wedding Ceremony)' },
-      startIso: '2027-01-24T11:32:00+05:30',
+      startIso: '2027-04-21T11:32:00+05:30',
       endIso: '2027-04-21T14:00:00+05:30',
       venue: { mr: 'मुख्य मंडप, वृंदावन राजवाडा', en: 'Main Mandap, Vrindavan Rajwada' },
       dressCode: { mr: 'पैठणी, नऊवारी किंवा पारंपरिक मराठी पोशाख', en: 'Paithani, Nauvari or Traditional Maharashtrian' },
